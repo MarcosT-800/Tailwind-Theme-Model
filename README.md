@@ -1,17 +1,18 @@
 # Tailwind-Theme-Model
-Esse é um modelo de template com theme pronto para utilização para tornar o seu design muito mais dinâmico e bonito.
 
-# Para criar o seu do zero
+Este é um modelo de template com theme pronto para utilização, permitindo que você crie designs dinâmicos e bonitos.
 
+## Para criar o seu do zero
+
+```bash
 npx create-react-app my-project
 cd my-project
-
-# Instalando o Tailwind 
-
+Instalando o Tailwind
+bash
+Copy code
 npm install -D tailwindcss
 npx tailwindcss init
-
-# Depois configure seus paths de templates lá no arquivo tailwind.config
+Depois, configure seus paths de templates no arquivo tailwind.config.js:
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -24,11 +25,10 @@ module.exports = {
   plugins: [],
 }
 
+Adicione as diretivas no CSS:
 
-# Adicione as diretivas no CSS
-
+css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-# Pronto agora você pode rodar seu Modelo com Theme do zero!
+Pronto! Agora você pode rodar seu modelo com theme do zero!
